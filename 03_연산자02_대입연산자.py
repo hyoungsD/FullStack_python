@@ -1,8 +1,23 @@
-print(5 < 6)     # 
-print(5 > 6)     # 
-print(11 <= 11)     # 
-print(15.1 >= 12)     # 
-print(13 == 13)     # 
-print(11 != 5)     # 
-print()     # 
-print()     # 
+num = 4
+print(num)  # 4
+
+num += 4
+print(num)  # 8
+
+num -= 3
+print(num)  # 5
+
+num *= 3
+print(num)  # 15
+
+num /= 3
+print(num)  # 5.0
+
+num **= 2 
+print(num)  # 25
+
+hello = 'Hello '
+hello += 'World!'
+print(hello)    # Hello World!
+hello *= 3
+print(hello)    # Hello World!Hello World!Hello World!
